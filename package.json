@@ -1,9 +1,13 @@
 {
-  "name": "linkdrop-downloader",
-  "version": "1.0.0",
+  "name": "linkdrop-terabox",
+  "version": "1.3.0",
   "private": true,
-  "description": "LinkDrop public-media downloader prototype with MP4 and MP3 options",
+  "description": "LinkDrop with MP4/MP3 download choices and configurable TeraBox resolver",
   "main": "server.js",
-  "scripts": { "start": "node server.js" },
-  "dependencies": { "express": "^4.21.2" }
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }
